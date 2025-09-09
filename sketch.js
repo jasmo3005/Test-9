@@ -45,7 +45,7 @@ function preload() {
     () => console.log('sound loaded'),
     (e) => console.error('sound load error', e)
   );
-  orb1Img = loadImage('assets/orb1.jpg'); // Preload orb1 image
+  orb1Img = loadImage('assets/orb1.png'); // Preload orb1 image
 }
 
 class Particle {
